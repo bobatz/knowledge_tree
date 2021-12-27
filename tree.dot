@@ -1,0 +1,36 @@
+digraph KnowledgeTree {
+
+  "Feedback Control" -> {
+    "Root Locus",
+    "Phase and Gain Margin",
+    "Nyquist Stability"
+  }
+
+  "Linear Algebra" -> {
+    "Least Squares",
+    "Least Norm",
+    "Singular Value Decomposition",
+    "Linear Dynamical Systems"
+  }
+
+  "Optimization" -> {
+    "Convex Optimization",
+    "Integer Programming",
+    "Nonlinear Programming",
+    "Stochastic Programming",
+    "Combinatorial Programming"
+  }
+
+  "Convex Optimization" -> {
+    "Least Squares",
+    "Quadratic Programming",
+    "Geometric Programming",
+    "Cone Programming"
+  }
+
+  "Cone Programming" -> {
+    "Linear Programming",
+    "Second Order Cone Programming",
+    "Semidefinite Programming"
+  }
+}
